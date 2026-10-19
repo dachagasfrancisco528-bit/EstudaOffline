@@ -1,0 +1,13 @@
+ESTUDAOFFLINE PARA ANDROID - PRIMEIRA PREPARACAO
+
+O que esta pasta contem:
+- www/index.html: copia do HTML enviado, mantida sem alteracoes nesta etapa.
+- package.json e capacitor.config.json: configuracao inicial do Capacitor.
+- .github/workflows/build-apk.yml: fluxo para compilar um APK de teste no GitHub Actions, sem compilar no celular.
+
+IMPORTANTE
+1. Esta pasta ainda NAO e um APK e nao foi compilada/testada num dispositivo Android.
+2. O HTML original foi copiado para www/index.html; o arquivo enviado nao foi modificado.
+3. O APK de teste pode ser gerado depois de enviar estes arquivos a um repositorio GitHub e executar o workflow "Gerar APK do EstudaOffline" na aba Actions.
+4. Antes de distribuir, precisamos testar armazenamento local, progresso, video offline, links externos e comportamento sem internet. Dados salvos no navegador Acode/Chrome nao migram automaticamente para o APK.
+5. Para publicar na Play Store, precisaremos preparar assinatura de release; este fluxo gera somente APK debug para testes.

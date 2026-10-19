@@ -1,0 +1,9 @@
+{
+  "appId": "com.estudaoffline.app",
+  "appName": "EstudaOffline",
+  "webDir": "www",
+  "bundledWebRuntime": false,
+  "android": {
+    "allowMixedContent": false
+  }
+}
